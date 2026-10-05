@@ -7,8 +7,12 @@ venv/
 # Environment / secrets
 .env
 .env.*
+!.env.example
 
 # OS / editor
 .DS_Store
 .idea/
 .vscode/
+
+# App data (local database with your documents list and chats)
+data/
